@@ -91,7 +91,7 @@ namespace FinancialCrm
         {
             FrmBanks frm = new FrmBanks();
             frm.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }

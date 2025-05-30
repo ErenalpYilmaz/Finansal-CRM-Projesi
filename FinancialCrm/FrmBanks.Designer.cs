@@ -96,6 +96,7 @@
             this.btnExit.TabIndex = 8;
             this.btnExit.Text = "ÇIKIŞ YAP";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnBanks
             // 
