@@ -337,6 +337,8 @@ __pycache__/
 # Tabs Studio
 *.tss
 
+FinancialCrm/App.config
+App.config
 # Telerik's JustMock configuration file
 *.jmconfig
 
@@ -399,3 +401,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
