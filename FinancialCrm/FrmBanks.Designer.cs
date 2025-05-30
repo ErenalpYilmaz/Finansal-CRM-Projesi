@@ -29,24 +29,24 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnCategories = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.btnBanks = new System.Windows.Forms.Button();
+            this.btnCategories = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lblZiraatBankBalance = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblVakifBankBalance = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblIsBankBalance = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1.SuspendLayout();
@@ -73,18 +73,18 @@
             this.panel1.Size = new System.Drawing.Size(300, 569);
             this.panel1.TabIndex = 0;
             // 
-            // btnCategories
+            // btnExit
             // 
-            this.btnCategories.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCategories.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCategories.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCategories.Location = new System.Drawing.Point(17, 22);
-            this.btnCategories.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnCategories.Name = "btnCategories";
-            this.btnCategories.Size = new System.Drawing.Size(254, 54);
-            this.btnCategories.TabIndex = 1;
-            this.btnCategories.Text = "KATEGORİLER";
-            this.btnCategories.UseVisualStyleBackColor = true;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnExit.ForeColor = System.Drawing.Color.Transparent;
+            this.btnExit.Location = new System.Drawing.Point(17, 475);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(254, 54);
+            this.btnExit.TabIndex = 8;
+            this.btnExit.Text = "ÇIKIŞ YAP";
+            this.btnExit.UseVisualStyleBackColor = true;
             // 
             // btnBanks
             // 
@@ -98,6 +98,32 @@
             this.btnBanks.TabIndex = 2;
             this.btnBanks.Text = "BANKALAR";
             this.btnBanks.UseVisualStyleBackColor = true;
+            // 
+            // btnCategories
+            // 
+            this.btnCategories.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCategories.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCategories.ForeColor = System.Drawing.Color.Transparent;
+            this.btnCategories.Location = new System.Drawing.Point(17, 22);
+            this.btnCategories.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCategories.Name = "btnCategories";
+            this.btnCategories.Size = new System.Drawing.Size(254, 54);
+            this.btnCategories.TabIndex = 1;
+            this.btnCategories.Text = "KATEGORİLER";
+            this.btnCategories.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button7.ForeColor = System.Drawing.Color.Transparent;
+            this.button7.Location = new System.Drawing.Point(17, 412);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(254, 54);
+            this.button7.TabIndex = 7;
+            this.button7.Text = "AYARLAR";
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -151,32 +177,6 @@
             this.button6.Text = "DASHBOARD";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button7
-            // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.ForeColor = System.Drawing.Color.Transparent;
-            this.button7.Location = new System.Drawing.Point(17, 412);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(254, 54);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "AYARLAR";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // btnExit
-            // 
-            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnExit.ForeColor = System.Drawing.Color.Transparent;
-            this.btnExit.Location = new System.Drawing.Point(17, 475);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(254, 54);
-            this.btnExit.TabIndex = 8;
-            this.btnExit.Text = "ÇIKIŞ YAP";
-            this.btnExit.UseVisualStyleBackColor = true;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(71)))), ((int)(((byte)(176)))));
@@ -200,12 +200,22 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(189)))), ((int)(((byte)(50)))));
-            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.lblZiraatBankBalance);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Location = new System.Drawing.Point(307, 71);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(265, 138);
             this.panel3.TabIndex = 4;
+            // 
+            // lblZiraatBankBalance
+            // 
+            this.lblZiraatBankBalance.AutoSize = true;
+            this.lblZiraatBankBalance.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblZiraatBankBalance.Location = new System.Drawing.Point(7, 46);
+            this.lblZiraatBankBalance.Name = "lblZiraatBankBalance";
+            this.lblZiraatBankBalance.Size = new System.Drawing.Size(145, 55);
+            this.lblZiraatBankBalance.TabIndex = 8;
+            this.lblZiraatBankBalance.Text = "0,00₺";
             // 
             // label2
             // 
@@ -216,35 +226,25 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Ziraat Bankası";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(59, 47);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(145, 55);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "0,00₺";
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(126)))), ((int)(((byte)(176)))));
-            this.panel4.Controls.Add(this.label3);
+            this.panel4.Controls.Add(this.lblVakifBankBalance);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Location = new System.Drawing.Point(584, 71);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(265, 138);
             this.panel4.TabIndex = 4;
             // 
-            // label3
+            // lblVakifBankBalance
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(59, 47);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(145, 55);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "0,00₺";
+            this.lblVakifBankBalance.AutoSize = true;
+            this.lblVakifBankBalance.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblVakifBankBalance.Location = new System.Drawing.Point(7, 46);
+            this.lblVakifBankBalance.Name = "lblVakifBankBalance";
+            this.lblVakifBankBalance.Size = new System.Drawing.Size(145, 55);
+            this.lblVakifBankBalance.TabIndex = 8;
+            this.lblVakifBankBalance.Text = "0,00₺";
             // 
             // label4
             // 
@@ -258,22 +258,22 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(122)))), ((int)(((byte)(230)))));
-            this.panel5.Controls.Add(this.label5);
+            this.panel5.Controls.Add(this.lblIsBankBalance);
             this.panel5.Controls.Add(this.label7);
             this.panel5.Location = new System.Drawing.Point(861, 70);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(265, 138);
             this.panel5.TabIndex = 4;
             // 
-            // label5
+            // lblIsBankBalance
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(59, 47);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(145, 55);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "0,00₺";
+            this.lblIsBankBalance.AutoSize = true;
+            this.lblIsBankBalance.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblIsBankBalance.Location = new System.Drawing.Point(7, 47);
+            this.lblIsBankBalance.Name = "lblIsBankBalance";
+            this.lblIsBankBalance.Size = new System.Drawing.Size(145, 55);
+            this.lblIsBankBalance.TabIndex = 8;
+            this.lblIsBankBalance.Text = "0,00₺";
             // 
             // label7
             // 
@@ -313,6 +313,7 @@
             this.Name = "FrmBanks";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmBanks";
+            this.Load += new System.EventHandler(this.FrmBanks_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -341,12 +342,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblZiraatBankBalance;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblVakifBankBalance;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblIsBankBalance;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox1;
     }
