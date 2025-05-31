@@ -33,10 +33,10 @@
             this.btnBanks = new System.Windows.Forms.Button();
             this.btnCategories = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnBills = new System.Windows.Forms.Button();
             this.btnBillForm = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -74,10 +74,10 @@
             this.panel1.Controls.Add(this.btnBanks);
             this.panel1.Controls.Add(this.btnCategories);
             this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.btnBills);
             this.panel1.Controls.Add(this.btnBillForm);
             this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button6);
+            this.panel1.Controls.Add(this.btnDashboard);
             this.panel1.Location = new System.Drawing.Point(0, 64);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
@@ -110,6 +110,7 @@
             this.btnBanks.TabIndex = 2;
             this.btnBanks.Text = "BANKALAR";
             this.btnBanks.UseVisualStyleBackColor = true;
+            this.btnBanks.Click += new System.EventHandler(this.btnBanks_Click);
             // 
             // btnCategories
             // 
@@ -137,18 +138,19 @@
             this.button7.Text = "AYARLAR";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnBills
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.ForeColor = System.Drawing.Color.Transparent;
-            this.button3.Location = new System.Drawing.Point(17, 155);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(254, 60);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "FATURALAR";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnBills.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBills.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnBills.ForeColor = System.Drawing.Color.Transparent;
+            this.btnBills.Location = new System.Drawing.Point(17, 155);
+            this.btnBills.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnBills.Name = "btnBills";
+            this.btnBills.Size = new System.Drawing.Size(254, 60);
+            this.btnBills.TabIndex = 3;
+            this.btnBills.Text = "FATURALAR";
+            this.btnBills.UseVisualStyleBackColor = true;
+            this.btnBills.Click += new System.EventHandler(this.btnBills_Click);
             // 
             // btnBillForm
             // 
@@ -177,18 +179,19 @@
             this.button5.Text = "BANKA HAREKETLERİ";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnDashboard
             // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.ForeColor = System.Drawing.Color.Transparent;
-            this.button6.Location = new System.Drawing.Point(17, 349);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(254, 54);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "DASHBOARD";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnDashboard.ForeColor = System.Drawing.Color.Transparent;
+            this.btnDashboard.Location = new System.Drawing.Point(17, 349);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(254, 54);
+            this.btnDashboard.TabIndex = 6;
+            this.btnDashboard.Text = "DASHBOARD";
+            this.btnDashboard.UseVisualStyleBackColor = true;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // panel2
             // 
@@ -313,7 +316,7 @@
             this.groupBox1.Controls.Add(this.lblBankProcess2);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.lblBankProcess1);
-            this.groupBox1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.Location = new System.Drawing.Point(307, 241);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(819, 371);
@@ -450,7 +453,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmBanks";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -476,10 +479,10 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnDashboard;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnBillForm;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnBills;
         private System.Windows.Forms.Button btnBanks;
         private System.Windows.Forms.Button btnCategories;
         private System.Windows.Forms.Panel panel2;
