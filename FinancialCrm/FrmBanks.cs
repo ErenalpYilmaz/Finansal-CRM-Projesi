@@ -54,10 +54,7 @@ namespace FinancialCrm
             this.Close();
         }
 
-        private void btnBills_Click(object sender, EventArgs e)
-        {
-            
-        }
+       
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {

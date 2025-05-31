@@ -33,7 +33,7 @@
             this.btnBanks = new System.Windows.Forms.Button();
             this.btnCategories = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.btnBills = new System.Windows.Forms.Button();
+            this.btnInvoices = new System.Windows.Forms.Button();
             this.btnBillForm = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
@@ -74,7 +74,7 @@
             this.panel1.Controls.Add(this.btnBanks);
             this.panel1.Controls.Add(this.btnCategories);
             this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.btnBills);
+            this.panel1.Controls.Add(this.btnInvoices);
             this.panel1.Controls.Add(this.btnBillForm);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.btnDashboard);
@@ -138,19 +138,18 @@
             this.button7.Text = "AYARLAR";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // btnBills
+            // btnInvoices
             // 
-            this.btnBills.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBills.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBills.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBills.Location = new System.Drawing.Point(17, 155);
-            this.btnBills.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnBills.Name = "btnBills";
-            this.btnBills.Size = new System.Drawing.Size(254, 60);
-            this.btnBills.TabIndex = 3;
-            this.btnBills.Text = "FATURALAR";
-            this.btnBills.UseVisualStyleBackColor = true;
-            this.btnBills.Click += new System.EventHandler(this.btnBills_Click);
+            this.btnInvoices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInvoices.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnInvoices.ForeColor = System.Drawing.Color.Transparent;
+            this.btnInvoices.Location = new System.Drawing.Point(17, 155);
+            this.btnInvoices.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnInvoices.Name = "btnInvoices";
+            this.btnInvoices.Size = new System.Drawing.Size(254, 60);
+            this.btnInvoices.TabIndex = 3;
+            this.btnInvoices.Text = "FATURALAR";
+            this.btnInvoices.UseVisualStyleBackColor = true;
             // 
             // btnBillForm
             // 
@@ -482,7 +481,7 @@
         private System.Windows.Forms.Button btnDashboard;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnBillForm;
-        private System.Windows.Forms.Button btnBills;
+        private System.Windows.Forms.Button btnInvoices;
         private System.Windows.Forms.Button btnBanks;
         private System.Windows.Forms.Button btnCategories;
         private System.Windows.Forms.Panel panel2;
