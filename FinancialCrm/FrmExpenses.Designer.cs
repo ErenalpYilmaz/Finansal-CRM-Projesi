@@ -137,6 +137,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "AYARLAR";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // btnInvoices
             // 
@@ -150,6 +151,7 @@
             this.btnInvoices.TabIndex = 3;
             this.btnInvoices.Text = "HARCAMALAR";
             this.btnInvoices.UseVisualStyleBackColor = true;
+            this.btnInvoices.Click += new System.EventHandler(this.btnInvoices_Click);
             // 
             // btnBillForm
             // 
@@ -176,6 +178,7 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "BANKA HAREKETLERİ";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnDashboard
             // 
@@ -189,6 +192,7 @@
             this.btnDashboard.TabIndex = 6;
             this.btnDashboard.Text = "DASHBOARD";
             this.btnDashboard.UseVisualStyleBackColor = true;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // label2
             // 
@@ -231,6 +235,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmExpenses";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Harcama Sayfası";
             this.Load += new System.EventHandler(this.FrmInvoices_Load);
             this.panel2.ResumeLayout(false);

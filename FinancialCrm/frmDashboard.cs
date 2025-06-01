@@ -111,7 +111,28 @@ namespace FinancialCrm
 
         private void buttonInvoices_Click(object sender, EventArgs e)
         {
+            FrmExpenses frm = new FrmExpenses();
+            frm.Show();
+            this.Close();
+        }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FrmSettings frm = new FrmSettings();
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnCategories_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FrmBanks frm = new FrmBanks();
+            frm.Show();
+            this.Close();
         }
     }
 }

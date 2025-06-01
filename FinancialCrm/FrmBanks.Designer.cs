@@ -137,6 +137,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "AYARLAR";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // btnInvoices
             // 
@@ -148,8 +149,9 @@
             this.btnInvoices.Name = "btnInvoices";
             this.btnInvoices.Size = new System.Drawing.Size(254, 60);
             this.btnInvoices.TabIndex = 3;
-            this.btnInvoices.Text = "FATURALAR";
+            this.btnInvoices.Text = "HARCAMALAR";
             this.btnInvoices.UseVisualStyleBackColor = true;
+            this.btnInvoices.Click += new System.EventHandler(this.btnInvoices_Click);
             // 
             // btnBillForm
             // 
@@ -177,6 +179,7 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "BANKA HAREKETLERİ";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnDashboard
             // 

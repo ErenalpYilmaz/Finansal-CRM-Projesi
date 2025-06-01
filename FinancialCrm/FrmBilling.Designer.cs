@@ -103,7 +103,7 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnExit.ForeColor = System.Drawing.Color.Transparent;
-            this.btnExit.Location = new System.Drawing.Point(16, 474);
+            this.btnExit.Location = new System.Drawing.Point(16, 469);
             this.btnExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(254, 54);
@@ -117,10 +117,10 @@
             this.btnBanksForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBanksForm.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnBanksForm.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBanksForm.Location = new System.Drawing.Point(16, 84);
+            this.btnBanksForm.Location = new System.Drawing.Point(16, 85);
             this.btnBanksForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBanksForm.Name = "btnBanksForm";
-            this.btnBanksForm.Size = new System.Drawing.Size(254, 60);
+            this.btnBanksForm.Size = new System.Drawing.Size(254, 54);
             this.btnBanksForm.TabIndex = 2;
             this.btnBanksForm.Text = "BANKALAR";
             this.btnBanksForm.UseVisualStyleBackColor = true;
@@ -144,23 +144,24 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button7.ForeColor = System.Drawing.Color.Transparent;
-            this.button7.Location = new System.Drawing.Point(16, 411);
+            this.button7.Location = new System.Drawing.Point(16, 405);
             this.button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(254, 54);
             this.button7.TabIndex = 7;
             this.button7.Text = "AYARLAR";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button3
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button3.ForeColor = System.Drawing.Color.Transparent;
-            this.button3.Location = new System.Drawing.Point(16, 154);
+            this.button3.Location = new System.Drawing.Point(16, 149);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(254, 60);
+            this.button3.Size = new System.Drawing.Size(254, 54);
             this.button3.TabIndex = 3;
             this.button3.Text = "HARCAMALAR";
             this.button3.UseVisualStyleBackColor = true;
@@ -171,7 +172,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button4.ForeColor = System.Drawing.Color.Transparent;
-            this.button4.Location = new System.Drawing.Point(16, 222);
+            this.button4.Location = new System.Drawing.Point(16, 213);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(254, 54);
@@ -185,20 +186,21 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button5.ForeColor = System.Drawing.Color.Transparent;
-            this.button5.Location = new System.Drawing.Point(16, 285);
+            this.button5.Location = new System.Drawing.Point(16, 277);
             this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(254, 54);
             this.button5.TabIndex = 5;
             this.button5.Text = "BANKA HAREKETLERİ";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button6.ForeColor = System.Drawing.Color.Transparent;
-            this.button6.Location = new System.Drawing.Point(16, 348);
+            this.button6.Location = new System.Drawing.Point(16, 341);
             this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(254, 54);
