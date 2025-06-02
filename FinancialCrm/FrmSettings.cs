@@ -41,7 +41,9 @@ namespace FinancialCrm
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            frmDashboard frm = new frmDashboard();
+            frm.Show();
+            this.Close();
         }
 
         private void btnCreateUser_Click(object sender, EventArgs e)
@@ -96,7 +98,9 @@ namespace FinancialCrm
 
         private void btnCategories_Click(object sender, EventArgs e)
         {
-
+            FrmCategories frm = new FrmCategories();
+            frm.Show();
+            this.Close();
         }
 
         private void btnBanksForm_Click(object sender, EventArgs e)
@@ -116,6 +120,23 @@ namespace FinancialCrm
             FrmBanks frm = new FrmBanks();
             frm.Show();
             this.Close();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            allBanksOperations frmBanks = new allBanksOperations();
+            frmBanks.ShowDialog();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            var quit = MessageBox.Show("Çıkmak İstediğinizden Emin Misiniz ?", "Ödeme & Faturalar", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (quit == DialogResult.OK) { Application.Exit(); }
         }
     }
 }

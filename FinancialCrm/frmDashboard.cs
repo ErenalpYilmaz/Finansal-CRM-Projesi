@@ -125,7 +125,9 @@ namespace FinancialCrm
 
         private void btnCategories_Click(object sender, EventArgs e)
         {
-
+            FrmCategories frm = new FrmCategories();
+            frm.Show();
+            this.Close();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -133,6 +135,12 @@ namespace FinancialCrm
             FrmBanks frm = new FrmBanks();
             frm.Show();
             this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            allBanksOperations frmBanks = new allBanksOperations();
+            frmBanks.ShowDialog();
         }
     }
 }

@@ -128,5 +128,18 @@ namespace FinancialCrm
             frm.Show();
             this.Close();
         }
+
+        private void btnCategories_Click(object sender, EventArgs e)
+        {
+            FrmCategories frm = new FrmCategories();
+            frm.Show();
+            this.Close();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            allBanksOperations frmBanks = new allBanksOperations();
+            frmBanks.ShowDialog();
+        }
     }
 }

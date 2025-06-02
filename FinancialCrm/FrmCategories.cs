@@ -110,5 +110,24 @@ namespace FinancialCrm
             frm.Show();
             this.Close();
         }
+
+        private void btnCategories_Click(object sender, EventArgs e)
+        {
+            FrmCategories frm = new FrmCategories();
+            frm.Show();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            allBanksOperations frmBanks = new allBanksOperations();
+            frmBanks.ShowDialog();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            var quit = MessageBox.Show("Çıkmak İstediğinizden Emin Misiniz ?", "Ödeme & Faturalar", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (quit == DialogResult.OK) { Application.Exit(); }
+        }
     }
 }
